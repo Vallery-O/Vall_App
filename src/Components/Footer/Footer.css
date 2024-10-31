@@ -1,0 +1,12 @@
+.footer{
+    margin: 50px 170px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    gap: 30px;
+}
+.footer-left{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
