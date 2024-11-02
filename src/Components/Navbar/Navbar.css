@@ -30,3 +30,49 @@
 .nav-menu p.active {
     border-bottom: 2px solid black;
 }
+.mobile-close{
+    display: none;
+    top: 30px;
+    width: 30px;
+}
+@media (max-width:768px) {
+    .navbar{
+        margin: 20px 50px
+    }
+    .nav-connect{
+        display: none;   
+    }
+    .mobile-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    .mobile-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #ada9ad;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+
+    }
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+}
