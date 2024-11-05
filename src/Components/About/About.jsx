@@ -1,14 +1,12 @@
 import React from 'react'
 import './About.css'
-import title_patt from '../../assets/title.svg'
 import prof_img from '../../assets/profile.svg'
 
 const About = () => {
   return (
     <div id='about' className='about'>
         <div className="about-title">
-            <h1>AboutMe</h1>
-            <img src={title_patt} alt="" />
+            <h1>About Me</h1>
         </div>
         <div className="about-sect">
             <div className="about-left">

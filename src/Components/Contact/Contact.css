@@ -14,12 +14,7 @@
     font-size: 80px;
     font-weight: 600;
 }
-.cont-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
+
 .cont-section{
     display: flex;
     gap: 150px;
@@ -106,4 +101,50 @@
 .cont-submit:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+@media(max-width:760px){
+    .contact{
+        gap:50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .cont-title{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .cont-section{
+        flex-direction: column;
+    }
+    .cont-left h1{
+        font-size: 54px;
+
+    }
+    .cont-left p{
+        font-size: 18px;
+    }
+    .cont-detail{
+        gap: 20px;
+    }
+    .cont-detail img{
+        width: 25px;
+    }
+    .cont-right label{
+        font-size: 20px;
+    }
+    .cont-right input{
+        width: 100%;
+        font-size: 20px;
+
+    }
+    .cont-right textarea{
+        width: 95%;
+        font-size: 20px;
+    }
+    .cont-submit{
+        font-size: 20px;
+        padding: 15px 40px;
+    }
+
+    
 }

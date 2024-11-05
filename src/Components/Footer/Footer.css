@@ -10,3 +10,15 @@
     gap: 50px;
     margin-bottom: 50px;
 }
+@media(max-width:760px){
+    .footer{
+        margin: 50px 70px; 
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-right{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+}

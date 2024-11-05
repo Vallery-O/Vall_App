@@ -1,6 +1,5 @@
 import React from 'react'
 import './MyWork.css'
-import title_patt from '../../assets/title.svg'
 import Mywork_Data from '../../assets/mywork_data'
 import Right_arrow from '../../assets/Arrow.svg'
 
@@ -9,7 +8,6 @@ const MyWork = () => {
     <div id='projects' className='mywork'>
         <div className="mywork-title">
             <h1>My Work</h1>
-            <img src ={title_patt} alt="" />
         </div>
         <div className="mywork-cont">
             {Mywork_Data.map((work,index)=>{

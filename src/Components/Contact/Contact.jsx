@@ -1,6 +1,5 @@
 import React from 'react'
 import './Contact.css'
-import title_patt from '../../assets/title.svg'
 import email_icon from '../../assets/email.svg'
 import call_icon from '../../assets/call.svg'
 import loc_icon from '../../assets/location.svg'
@@ -39,7 +38,6 @@ const Contact = () => {
     <div id='contact' className='contact'>
         <div className="cont-title">
             <h1>Hit Me Up?</h1>
-            <img src={title_patt}alt="" />
         </div>
         <div className="cont-section">
             <div className="cont-left">
