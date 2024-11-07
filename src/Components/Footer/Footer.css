@@ -12,13 +12,10 @@
 }
 @media(max-width:760px){
     .footer{
-        margin: 50px 70px; 
-        flex-direction: column;
-        gap: 50px;
+      margin: 50px 70px;
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: 50px; 
     }
-    .footer-right{
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 50px;
-    }
+    
 }
