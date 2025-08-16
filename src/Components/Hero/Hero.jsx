@@ -1,7 +1,8 @@
 import React from 'react'
 import './Hero.css'
 import prof_img from '../../assets/prof-img.svg'
-import resume_pdf from '../../assets/Vallery-Otieno-resume.pdf'
+import resume_pdf from '../../assets\Vallery-A-Otieno-CV.pdf'
+
 
 const Hero = () => {
 
