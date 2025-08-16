@@ -18,7 +18,7 @@ const About = () => {
                     <p> I have experience working with tools like Docker, Kubernetes, Jenkins, and cloud platforms such as AWS and Azure</p>
                 </div>
                 <div className="about-skills">
-                    <div className="skills"><p>Contaner:Docker and Kubernetes</p><hr style={{width:"50%"}} /></div>
+                    <div className="skills"><p>Container:Docker and Kubernetes</p><hr style={{width:"50%"}} /></div>
                     <div className="skills"><p>Cloud: AWS</p><hr style={{width:"50%"}} /></div>
                     <div className="skills"><p>Scripting: Bash, Python, PowerShell</p><hr style={{width:"50%"}} /></div>
                     <div className="skills"><p>Version Control: Git, GitHub, GitLab</p><hr style={{width:"50%"}} /></div>
